@@ -1,0 +1,94 @@
+Install Express
+
+Open terminal:
+
+npm init -y
+npm install express
+Run
+node app.js
+
+Output:
+
+Server Running
+
+Test APIs
+
+Use:
+
+Postman Official Website
+
+CREATE API
+
+Method:
+
+POST
+
+URL:
+
+http://localhost:3000/student
+
+Body:
+
+{
+    "id":2,
+    "name":"Riya"
+}
+
+Response:
+
+Student Added
+READ API
+
+Method:
+
+GET
+
+URL:
+
+http://localhost:3000/student
+
+Output:
+
+[
+ {
+   "id":1,
+   "name":"Pragati"
+ },
+ {
+   "id":2,
+   "name":"Riya"
+ }
+]
+UPDATE API
+
+Method:
+
+PUT
+
+URL:
+
+http://localhost:3000/student/2
+
+Body:
+
+{
+    "id":2,
+    "name":"Disha"
+}
+
+Response:
+
+Student Updated
+DELETE API
+
+Method:
+
+DELETE
+
+URL:
+
+http://localhost:3000/student/2
+
+Response:
+
+Student Deleted
