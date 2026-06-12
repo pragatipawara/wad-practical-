@@ -1,0 +1,21 @@
+Open VS Code Terminal.
+
+Initialize Project - npm init -y
+
+Install Express - npm install express
+
+Run Application -node app.js
+
+Output: - Server Running on Port 3000
+
+Open Browser
+
+Visit:
+
+http://localhost:3000
+
+Output:
+
+Welcome to Node.js Static Website
+
+This page is served using Express.js
